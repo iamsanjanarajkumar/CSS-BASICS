@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .combination{
+            background-color: grey;
+            color: white;
+            padding: 20px;
+
+        }
+        .combination > h3{
+            color:red;
+        }
+        .combination >p{
+            color: yellow;
+
+        }
+        .combination >div{
+            background-color: whitesmoke;
+        }
+        .combination>div>h3{
+            background-color: azure;
+            color: teal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descedant Selector(USING > SYMBOL) Example...!!!</h1>
+    <hr>
+    <section class="combination">
+        <h3>First h3 tag...!!!(Child Element)</h3>
+        <p>FirstParagraph..(Child Element) </p>
+
+        <h3>Second h3 tag...(child Element)</h3>
+        <p>Second Paragraph...!!(child Element)</p>
+
+        <h3>Third h3 tag..!!(child Element)</h3>
+        <p>third Paragraph..(child Element)</p>
+       
+        <div>
+        <h3>Fourth h3 tagg...!!!( grand child Element)</h3>
+        <p>fourth Paragraph( grand child Element)</p>
+
+    </div>
+
+         <h3>Fifth h3 tag..(child Element)</h3>
+         <p></p>
+        
+    </section>
+</body>
+</html>
